@@ -4,7 +4,7 @@
        <include location="component://common/webcommon/WEB-INF/common-controller.xml"/>
        <description>Practice Component Site Configuration File</description>
        <owner>Copyright 2001-2009 The Apache Software Foundation</owner>
-       <handler name="screen" type="view" class="org.ofbiz.widget.screen.ScreenWidgetViewHandler"/>
+       <handler name="screen" type="view" class="org.ofbiz.widget.renderer.macro.MacroScreenViewHandler"/>
        <!-- Request Mappings -->
        <request-map uri="main">
            <security https="false" auth="false"/>
