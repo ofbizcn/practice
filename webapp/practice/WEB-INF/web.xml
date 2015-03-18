@@ -44,6 +44,11 @@ under the License.
     <param-value>component://practice/widget/PracticeScreens.xml</param-value>
     <description>The location of the main-decorator screen to use for this webapp; referred to as a context variable in screen def XML files.</description>
   </context-param>
+  <context-param>
+     <param-name>commonDecoratorLocation</param-name>
+     <param-value>component://practice/widget/CommonScreens.xml</param-value>
+     <description>The location of the common-decorator screen to use for this webapp; referred to as a context variable in screen def XML files.</description>
+  </context-param>
 
     <filter>
         <filter-name>ContextFilter</filter-name>
